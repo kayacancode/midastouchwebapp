@@ -6,7 +6,7 @@ const underconstruction = () => {
     <div className=" bg-black mx-auto max-w-screen-xl  px-4 sm:px-8">
         <div className="flex flex-col justify-center items-center">
            
-            <img
+            <Image
                         src="/logo.png" 
                         width={550} 
                         height={42}

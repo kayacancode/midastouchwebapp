@@ -29,10 +29,7 @@ export default function Home() {
     <header className="bg-black">
         <nav className=" bg-black items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 ">
             <div className=" bg-black flex justify-between">
-                <a href="javascript:void(0)">
-                  
-           
-                </a>
+            
                 <button className="text-[#DAA545] outline-none md:hidden"
                     onClick={() => setState(!state)}
                 >
@@ -73,7 +70,7 @@ export default function Home() {
     <section className=" bg-black mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
         <div className="flex flex-col justify-center items-center">
            
-            <img
+            <Image
                         src="/logo.png" 
                         width={550} 
                         height={42}
