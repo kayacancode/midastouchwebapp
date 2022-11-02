@@ -15,9 +15,9 @@ const underconstruction = () => {
                     <h1 className="text-white text-center">This page is under construction come back on the offical launch date November 12th!</h1>
         </div>
           <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-            <a href="/" className="px-10 py-3.5 w-full bg-[#DAA545] text-white text-center rounded-md shadow-md block sm:w-auto">
+            <Link href="/" className="px-10 py-3.5 w-full bg-[#DAA545] text-white text-center rounded-md shadow-md block sm:w-auto">
                 Return to Home
-            </a>
+            </Link>
            
         </div>
         
