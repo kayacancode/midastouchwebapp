@@ -10,7 +10,7 @@ const underconstruction = () => {
             <Image
                         src="/logo.png" 
                         width={550} 
-                        height={42}
+                        height={400}
                         alt="Float UI logo"
                     />
                     <h1 className="text-white text-center">This page is under construction come back on the offical launch date November 12th!</h1>
