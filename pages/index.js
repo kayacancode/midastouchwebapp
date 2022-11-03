@@ -24,7 +24,6 @@ export default function Home() {
 -DJs
 -Photographers
 -Equipment Rentals " />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
     <header className="bg-black">
         <nav className=" bg-black items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 ">
