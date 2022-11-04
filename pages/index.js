@@ -71,8 +71,8 @@ export default function Home() {
            
             <Image
                         src="/logo.png" 
-                        width={550} 
-                        height={400}
+                        width={750} 
+                        height={800}
                         alt="Float UI logo"
                     />
                     {/* <h1 className="text-white">Hello</h1> */}
