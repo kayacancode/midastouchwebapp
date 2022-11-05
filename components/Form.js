@@ -177,7 +177,7 @@ const Form = () => {
                     type="submit"
                     className="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
                   >
-                    <span className="font-medium"> Send Enquiry </span>
+                    <span className="font-medium"> Send Inquiry </span>
 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
