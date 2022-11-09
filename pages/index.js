@@ -86,6 +86,160 @@ export default function Home() {
             </a>
         </div> */}
     </section>
+
+    <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
+        <div className="block  md:flex">
+        <div className="w-1/2 text-center">
+            <h1 className="text-white text-4xl   ">Wedding DJ</h1>
+            <h2 className="text-white text-left text-center pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
+            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
+            <a href="javascript:void(0)" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book
+            </a>
+            </button>
+        </div>
+        <div className="w-4/5 text-center pl-[115px] ">
+            <div className="block md:columns-3 ">
+        <Image
+                        src="/wedding1.png" 
+                        width={350} 
+                        height={300}
+                        alt="wedding"
+                        className="w-full aspect-video mb-6 hover:shadow-md hover:shadow-[#DAA545]"
+                    />  
+                      <Image
+                        src="/wedding2.png" 
+                        width={300} 
+                        height={200}
+                        alt="wedding"
+                        className="w-full aspect-square mb-6"
+
+                    /> 
+                                <div className= " hidden md: display bg-[#DAA545] w-full aspect-video mb-6 bl"> </div>
+    
+                      <Image
+                        src="/wedding3.png" 
+                        width={400} 
+                        height={300}
+                        alt="wedding"
+                        className="w-full aspect-video mb-6"
+
+                    />         
+
+                <Image
+                        src="/wedding4.jpg" 
+                        width={400} 
+                        height={300}
+                        alt="wedding"
+                        className="w-full aspect-square mb-6 "
+
+                    />   
+        </div>
+        </div>
+        </div>
+    </section>
+    <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4  py-16 sm:px-8">
+        <div className="block  md:flex">
+        <div className="w-1/2 text-center">
+            <h1 className="text-white text-4xl   ">Party DJ</h1>
+            <h2 className="text-white text-left text-center pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
+            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
+            <a href="javascript:void(0)" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book
+            </a>
+            </button>
+        </div>
+        <div className="w-4/5 text-center pl-[115px] ">
+            <div className="block md:columns-3 ">
+        <Image
+                        src="/party1.png" 
+                        width={350} 
+                        height={300}
+                        alt="party"
+                        className="w-full aspect-video mb-6 hover:shadow-md hover:shadow-[#DAA545]"
+                    />  
+                      <Image
+                        src="/party2.png" 
+                        width={300} 
+                        height={200}
+                        alt="party"
+                        className="w-full aspect-square mb-6"
+
+                    /> 
+                                <div className= " hidden md: display bg-[#DAA545] w-full aspect-video mb-6 bl"> </div>
+    
+                      <Image
+                        src="/party3.png" 
+                        width={400} 
+                        height={300}
+                        alt="party"
+                        className="w-full aspect-video mb-6"
+
+                    />         
+
+                <Image
+                        src="/party4.png" 
+                        width={400} 
+                        height={300}
+                        alt="v"
+                        className="w-full aspect-square mb-6 "
+
+                    />   
+        </div>
+        </div>
+        </div>
+    </section>
+    <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4  py-16 sm:px-8">
+        <div className="block  md:flex">
+        <div className="w-1/2 text-center">
+            <h1 className="text-white text-4xl   ">Event DJ</h1>
+            <h2 className="text-white text-left text-center pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
+            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
+            <a href="javascript:void(0)" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book
+            </a>
+            </button>
+        </div>
+        <div className="w-4/5 text-center pl-[115px] ">
+            <div className="block md:columns-3 ">
+        <Image
+                        src="/event1.png" 
+                        width={350} 
+                        height={300}
+                        alt="event"
+                        className="w-full aspect-video mb-6 hover:shadow-md hover:shadow-[#DAA545]"
+                    />  
+                      <Image
+                        src="/event2.png" 
+                        width={300} 
+                        height={200}
+                        alt="event"
+                        className="w-full aspect-square mb-6"
+
+                    /> 
+                                <div className= " hidden md: display bg-[#DAA545] w-full aspect-video mb-6 bl"> </div>
+    
+                      <Image
+                        src="/event3.png" 
+                        width={400} 
+                        height={300}
+                        alt="event"
+                        className="w-full aspect-video mb-6"
+
+                    />         
+
+                <Image
+                        src="/event4.png" 
+                        width={400} 
+                        height={300}
+                        alt="event"
+                        className="w-full aspect-square mb-6 "
+
+                    />   
+        </div>
+        </div>
+        </div>
+    </section>
     <footer aria-label="Site Footer" class=" text-center">
   <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-3xl space-y-6">
