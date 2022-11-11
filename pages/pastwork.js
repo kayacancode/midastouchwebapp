@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {useState, react} from 'react'
 
-const pastwork = () => {
+const Pastwork = () => {
     const [state, setState] = useState(false)
 
     // Replace javascript:void(0) path with your path
@@ -211,4 +211,4 @@ const pastwork = () => {
   )
 }
 
-export default pastwork
+export default Pastwork
