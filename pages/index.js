@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {useState, react} from 'react'
+import Link from 'next/Link'
 export default function Home() {
   const [state, setState] = useState(false)
 
@@ -10,10 +11,11 @@ export default function Home() {
       { title: "Home", path: "/" },
       { title: "About Us", path: "/Aboutus" },
       { title: "Services", path: "/Services" },
-      { title: "Past Work", path: "/underconstruction" },
+      { title: "Past Work", path: "/pastwork" },
       { title: "Book", path: "/Book" },
       { title: "Reviews", path: "https://www.google.com/search?q=midas+touch+event+services&rlz=1C5CHFA_enUS985US985&oq=midas+touch+event+services&aqs=chrome..69i57j69i60l2j69i61.6337j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6dbb6dc48d527f9b:0xa8d384671b565cea,1,,," },
-      { title: "Contact Us", path: "/underconstruction" }
+      { title: "Contact Us", path: "/Contactus" }
+
   ]
   return (
     
@@ -92,9 +94,11 @@ export default function Home() {
             <h1 className="text-white text-4xl   ">Wedding DJ</h1>
             <h2 className="text-white text-left text-center pt-5">We know how stressful it can be to sift through multiple DJs, photographers, etc. when planning for your special day. Let us take the stress of your hand by offering all in one wedding entertainment packages</h2>
             <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book
             </a>
+            </Link>
             </button>
         </div>
         <div className="w-4/5 text-center pl-[115px] ">
@@ -143,9 +147,11 @@ export default function Home() {
             <h1 className="text-white text-4xl   ">Party DJ</h1>
             <h2 className="text-white text-left text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we’re confident we can do the same for you. Contact us today to learn more about our services!</h2>
             <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book
             </a>
+            </Link>
             </button>
         </div>
         <div className="w-4/5 text-center pl-[115px] ">

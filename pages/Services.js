@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {useState, react} from 'react'
-
+import Link from 'next/Link'
 const Services = () => {
   const [state, setState] = useState(false)
 
@@ -11,10 +11,10 @@ const Services = () => {
       { title: "Home", path: "/" },
       { title: "About Us", path: "/Aboutus" },
       { title: "Services", path: "/Services" },
-      { title: "Past Work", path: "/underconstruction" },
+      { title: "Past Work", path: "/pastwork" },
       { title: "Book", path: "/Book" },
       { title: "Reviews", path: "/underconstruction" },
-      { title: "Contact Us", path: "/underconstruction" }
+      { title: "Contact Us", path: "/Contactus" }
   ]
   return (
     <div className="  bg-black">
@@ -75,13 +75,22 @@ const Services = () => {
        />
        <div className="text-center">
 <h1 className="text-white text-center text-2xl pt-10">DJ Services </h1>
-    <p className="text-white pt-10">Our disc-jockeys are well trained for any event. Whether you are planning your upcoming wedding, corporate party, or any other celebration - we boast an extensive catalog of over 80,000 songs covering any genre and age group. What about announcements and crowd interaction? Don't worry, our DJs offer full event hosting/emceeing with every booking! Your guests will feel inclined to have a great time in the presence of one of our professional DJs, and we promise - no one will want the party to ever end! There is no one size fits all DJ, but at Midas Touch, so we train and prepare our DJs to match exactly what you need for your event. Our DJs are truly the “Golden Touch.”
+    <p className="text-white pt-10">Our disc-jockeys are well trained for any event.
+     Whether you are planning your upcoming wedding, corporate party, or any other celebration - 
+     we boast an extensive catalog of over 80,000 songs covering any genre and age group. 
+     What about announcements and crowd interaction?
+      Do not worry, our DJs offer full event hosting/emceeing with every booking! 
+      Your guests will feel inclined to have a great time in the presence of one of our professional DJs, and we promise - 
+      no one will want the party to ever end! There is no one size fits all DJ, but at Midas Touch, so we train and prepare our DJs to match exactly what you need for your event.
+       Our DJs are truly the <q>Golden Touch.</q>
 
 </p>
 <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="javascript:void(0)" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book Now
             </a>
+            </Link>
             </button>
 
 
@@ -94,19 +103,21 @@ const Services = () => {
             <h1 className="text-white text-4xl   ">Unforgettable Wedding DJs</h1>
             <h2 className="text-white  text-center pt-5">We know how stressful it can be to sift through multiple DJs, photographers, etc. when planning for your special day. Let us take the stress of your hand by offering all in one wedding entertainment packages. These packages are customizable, upon request depending on what you are looking for. All Wedding Packages include full sound setups, dance lighting, wireless handheld mics (2), separate speaker for cocktail hour or ceremony, and lapel mic (1) for the duration of 5 hours
 <br />
-1. “The Works” - DJ/Emcee + Photographer + Photobooth of your choice + (1) Event Add On**
+1. <q>The Works</q> - DJ/Emcee + Photographer + Photobooth of your choice + (1) Event Add On**
 <br />
-2. “Premier” -DJ/Emcee + Photobooth of your choice + (1) Event Add On**
+2. <q>Premier</q> -DJ/Emcee + Photobooth of your choice + (1) Event Add On**
 <br />
-3. “Base” - DJ/Emcee + (1) Event Add On**
+3. <q>Premier</q> - DJ/Emcee + (1) Event Add On**
 
-**Event Add Ons: “Dancing On The Clouds,” Cold spark machines, Wall Monogram, or Venue, Uplighting** 
+Event Add Ons: <q>Dancing On The Clouds,Cold spark machines, Wall Monogram, or Venue, Uplighting </q> 
 
 </h2>
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="md:px-10 py-3.5 w-64   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book for my wedding now
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book Now
             </a>
+            </Link>
             </button>
         </div>
         <div className="text-center md:text-center ml-6  ">
@@ -132,9 +143,11 @@ const Services = () => {
 
 </h2>
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="md:px-10 py-3.5 w-64   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book for my event now
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book Now
             </a>
+            </Link>
             </button>
         </div>
         <div className="text-center md:text-center ml-6  ">
@@ -156,13 +169,15 @@ const Services = () => {
         <div className="block  md:flex">
         <div className="w-4/5 text-center">
             <h1 className="text-white text-4xl   ">Party DJs</h1>
-            <h2 className="text-white  text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we’re confident we can do the same for you. Contact us today to learn more about our services!
+            <h2 className="text-white  text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we are confident we can do the same for you. Contact us today to learn more about our services!
 
 </h2>
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="md:px-10 py-3.5 w-64   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book for my party now
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book Now
             </a>
+            </Link>
             </button>
         </div>
         <div className="text-center md:text-center ml-6  ">
@@ -184,13 +199,15 @@ const Services = () => {
         <div className="block  md:flex">
         <div className="w-4/5 text-center">
             <h1 className="text-white text-4xl   ">Photobooths</h1>
-            <h2 className="text-white  text-center pt-5">Both mirror photobooths and 360 photobooths are in our wheelhouse. We offer fun props with all our photobooths and also offer "red carpet experiences," full lighting kits, custom overlays, and digital sharing. Our mirror photobooths are very simple and easy to enjoy. Our 360 photobooths are the new craze, and are perfect for creating videos/boomerangs, and gifs. We offer unlimited photos and videos with all bookings. Create the golden moment by booking today for your next event! 
+            <h2 className="text-white  text-center pt-5">Both mirror photobooths and 360 photobooths are in our wheelhouse. We offer fun props with all our photobooths and also offer <q>red carpet experiences,</q> full lighting kits, custom overlays, and digital sharing. Our mirror photobooths are very simple and easy to enjoy. Our 360 photobooths are the new craze, and are perfect for creating videos/boomerangs, and gifs. We offer unlimited photos and videos with all bookings. Create the golden moment by booking today for your next event! 
 
 </h2>
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="md:px-10 py-3.5 w-64   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book now
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book Now
             </a>
+            </Link>
             </button>
         </div>
         <div className="text-center md:text-center ml-6  ">
@@ -216,9 +233,11 @@ const Services = () => {
 
 </h2>
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="md:px-10 py-3.5 w-64   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book now
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book Now
             </a>
+            </Link>
             </button>
         </div>
         <div className="text-center md:text-center ml-6  ">
@@ -245,9 +264,11 @@ const Services = () => {
 
 </h2>
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="md:px-10 py-3.5 w-64   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book now
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+                Book Now
             </a>
+            </Link>
             </button>
         </div>
         <div className="text-center md:text-center ml-6  ">

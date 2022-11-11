@@ -11,10 +11,10 @@ const Aboutus = () => {
       { title: "Home", path: "/" },
       { title: "About Us", path: "/Aboutus" },
       { title: "Services", path: "/Services" },
-      { title: "Past Work", path: "/underconstruction" },
+      { title: "Past Work", path: "/pastwork" },
       { title: "Book", path: "/Book" },
       { title: "Reviews", path: "https://www.google.com/search?q=midas+touch+event+services&rlz=1C5CHFA_enUS985US985&oq=midas+touch+event+services&aqs=chrome..69i57j69i60l2j69i61.6337j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6dbb6dc48d527f9b:0xa8d384671b565cea,1,,," },
-      { title: "Contact Us", path: "/underconstruction" }
+      { title: "Contact Us", path: "/Contactus" }
   ]
   return (
     <div className=" h-screen bg-black">
