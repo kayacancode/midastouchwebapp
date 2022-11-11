@@ -8,21 +8,20 @@ const Book = () => {
   const [state, setState] = useState(false)
   const navigation = [
     { title: "Home", path: "/" },
-    { title: "About Us", path: "/underconstruction" },
-    { title: "Services", path: "/underconstruction" },
+    { title: "About Us", path: "/Aboutus" },
+    { title: "Services", path: "/Services" },
     { title: "Past Work", path: "/underconstruction" },
     { title: "Book", path: "/Book" },
-    { title: "Reviews", path: "/underconstruction" },
+    { title: "Reviews", path: "https://www.google.com/search?q=midas+touch+event+services&rlz=1C5CHFA_enUS985US985&oq=midas+touch+event+services&aqs=chrome..69i57j69i60l2j69i61.6337j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6dbb6dc48d527f9b:0xa8d384671b565cea,1,,," },
     { title: "Contact Us", path: "/underconstruction" }
 ]
   return (
     <div className="h-screen">
               <Head>
-        <title>Midas Touch Event Services</title>
-        <meta name="description" content="Midas Touch Event Services delivers exciting event services to Nashville & its surrounding areas
--DJs
--Photographers
--Equipment Rentals " />
+        <title>Midas Touch Event Services: DJs, Photographers, and Event Rental Services in Nashville </title>
+          <meta name="description" content="Looking for a DJ for your next event in Nashville? Midas Touch Event Services has you covered! We also offer photography and event rental services." />
+          <meta name="description" content="Looking for a DJ, photographer, or event rental service in Nashville? Look no further than Midas Touch Event Services. We offer a wide range of services to make your event a success." />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
               <nav className=" bg-black items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 ">

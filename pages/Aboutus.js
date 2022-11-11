@@ -9,21 +9,20 @@ const Aboutus = () => {
   // Replace javascript:void(0) path with your path
   const navigation = [
       { title: "Home", path: "/" },
-      { title: "About Us", path: "/underconstruction" },
-      { title: "Services", path: "/underconstruction" },
+      { title: "About Us", path: "/Aboutus" },
+      { title: "Services", path: "/Services" },
       { title: "Past Work", path: "/underconstruction" },
       { title: "Book", path: "/Book" },
-      { title: "Reviews", path: "/underconstruction" },
+      { title: "Reviews", path: "https://www.google.com/search?q=midas+touch+event+services&rlz=1C5CHFA_enUS985US985&oq=midas+touch+event+services&aqs=chrome..69i57j69i60l2j69i61.6337j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6dbb6dc48d527f9b:0xa8d384671b565cea,1,,," },
       { title: "Contact Us", path: "/underconstruction" }
   ]
   return (
     <div className=" h-screen bg-black">
                 <Head>
-        <title>Midas Touch Event Services</title>
-        <meta name="description" content="Midas Touch Event Services delivers exciting event services to Nashville & its surrounding areas
--DJs
--Photographers
--Equipment Rentals " />
+        <title>Midas Touch Event Services: DJs, Photographers, and Event Rental Services in Nashville </title>
+          <meta name="description" content="Looking for a DJ for your next event in Nashville? Midas Touch Event Services has you covered! We also offer photography and event rental services." />
+          <meta name="description" content="Looking for a DJ, photographer, or event rental service in Nashville? Look no further than Midas Touch Event Services. We offer a wide range of services to make your event a success." />
+
       </Head>
     <header className="bg-black">
         <nav className=" bg-black items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 ">
@@ -74,9 +73,7 @@ const Aboutus = () => {
       className="p-10"
        />
 
-    <p className="text-white pt-10">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+    <p className="text-white pt-10">Midas Touch Event Services delivers exciting event services to Nashville & its surrounding areas. From weddings to corporate events, they know how to make any occasion a memorable one. Our team of experts is dedicated to creating unique experiences that will leave guests talking for months after. Whether you are hosting a simplistic event or something more extravagant, Midas Touch Event Services is the perfect choice. We truly strive to “Make Every Event Golden” 
 
 </p>
 

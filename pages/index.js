@@ -8,22 +8,21 @@ export default function Home() {
   // Replace javascript:void(0) path with your path
   const navigation = [
       { title: "Home", path: "/" },
-      { title: "About Us", path: "/underconstruction" },
-      { title: "Services", path: "/underconstruction" },
+      { title: "About Us", path: "/Aboutus" },
+      { title: "Services", path: "/Services" },
       { title: "Past Work", path: "/underconstruction" },
       { title: "Book", path: "/Book" },
-      { title: "Reviews", path: "/underconstruction" },
+      { title: "Reviews", path: "https://www.google.com/search?q=midas+touch+event+services&rlz=1C5CHFA_enUS985US985&oq=midas+touch+event+services&aqs=chrome..69i57j69i60l2j69i61.6337j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6dbb6dc48d527f9b:0xa8d384671b565cea,1,,," },
       { title: "Contact Us", path: "/underconstruction" }
   ]
   return (
     
     <div className=" h-screen bg-black">
           <Head>
-        <title>Midas Touch Event Services</title>
-        <meta name="description" content="Midas Touch Event Services delivers exciting event services to Nashville & its surrounding areas
--DJs
--Photographers
--Equipment Rentals " />
+        <title>Midas Touch Event Services: DJs, Photographers, and Event Rental Services in Nashville</title>
+          <meta name="description" content="Looking for a DJ for your next event in Nashville? Midas Touch Event Services has you covered! We also offer photography and event rental services." />
+          <meta name="description" content="Looking for a DJ, photographer, or event rental service in Nashville? Look no further than Midas Touch Event Services. We offer a wide range of services to make your event a success." />
+
       </Head>
     <header className="bg-black">
         <nav className=" bg-black items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 ">
@@ -89,11 +88,11 @@ export default function Home() {
 
     <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
         <div className="block  md:flex">
-        <div className="w-1/2 text-center">
+        <div className="md:w-1/2 text-center">
             <h1 className="text-white text-4xl   ">Wedding DJ</h1>
-            <h2 className="text-white text-left text-center pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
-            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="javascript:void(0)" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <h2 className="text-white text-left text-center pt-5">We know how stressful it can be to sift through multiple DJs, photographers, etc. when planning for your special day. Let us take the stress of your hand by offering all in one wedding entertainment packages</h2>
+            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
+            <a href="/Book" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book
             </a>
             </button>
@@ -140,11 +139,11 @@ export default function Home() {
     </section>
     <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4  py-16 sm:px-8">
         <div className="block  md:flex">
-        <div className="w-1/2 text-center">
+        <div className="md:w-1/2 text-center">
             <h1 className="text-white text-4xl   ">Party DJ</h1>
-            <h2 className="text-white text-left text-center pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
-            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="javascript:void(0)" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <h2 className="text-white text-left text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we’re confident we can do the same for you. Contact us today to learn more about our services!</h2>
+            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
+            <a href="/Book" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book
             </a>
             </button>
@@ -191,11 +190,11 @@ export default function Home() {
     </section>
     <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4  py-16 sm:px-8">
         <div className="block  md:flex">
-        <div className="w-1/2 text-center">
+        <div className="md:w-1/2 text-center">
             <h1 className="text-white text-4xl   ">Event DJ</h1>
-            <h2 className="text-white text-left text-center pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
-            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="javascript:void(0)" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <h2 className="text-white text-left text-center pt-5">Looking for a DJ for your next event? Our experienced professionals will make your party a success. We offer a wide range of services for bars and corporate events. Let us take care of everything so you can relax and enjoy the night.</h2>
+            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
+            <a href="/Book" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book
             </a>
             </button>
