@@ -200,9 +200,11 @@ export default function Home() {
             <h1 className="text-white text-4xl   ">Event DJ</h1>
             <h2 className="text-white text-left text-center pt-5">Looking for a DJ for your next event? Our experienced professionals will make your party a success. We offer a wide range of services for bars and corporate events. Let us take care of everything so you can relax and enjoy the night.</h2>
             <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
-            <a href="/Book" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
+            <Link href = "/Book">
+            <a href="" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
                 Book
             </a>
+            </Link>
             </button>
         </div>
         <div className="w-4/5 text-center pl-[115px] ">
