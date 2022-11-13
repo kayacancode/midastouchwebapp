@@ -139,9 +139,9 @@ Event Add Ons: <q>Dancing On The Clouds,Cold spark machines, Wall Monogram, or V
         <div className="block  md:flex">
         <div className="w-4/5 text-center">
             <h1 className="text-white text-4xl   ">Event DJs</h1>
-            <h2 className="text-white  text-center pt-5">Looking for a DJ for your next event? Our experienced professionals will make your party a success. We offer a wide range of services for bars and corporate events. Let us take care of everything so you can relax and enjoy the night.
+            {/* <h2 className="text-white  text-center pt-5">Looking for a DJ for your next event? Our experienced professionals will make your party a success. We offer a wide range of services for bars and corporate events. Let us take care of everything so you can relax and enjoy the night.
 
-</h2>
+</h2> */}
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
             <Link href = "/Book">
             <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
@@ -169,9 +169,9 @@ Event Add Ons: <q>Dancing On The Clouds,Cold spark machines, Wall Monogram, or V
         <div className="block  md:flex">
         <div className="w-4/5 text-center">
             <h1 className="text-white text-4xl   ">Party DJs</h1>
-            <h2 className="text-white  text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we are confident we can do the same for you. Contact us today to learn more about our services!
+            {/* <h2 className="text-white  text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we are confident we can do the same for you. Contact us today to learn more about our services!
 
-</h2>
+</h2> */}
             <button className = " text-center justify-center	 border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-6 hover:text-white hover:bg-[#DAA545]">
             <Link href = "/Book">
             <a href="" className="px-10 py-3.5   stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
