@@ -3,18 +3,16 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {useState, react} from 'react'
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
+import ImageGrid from '../components/ImageGrid'
+import Services from '../components/Services'
+import Hero from '../components/Hero'
 export default function Home() {
   const [state, setState] = useState(false)
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-      { title: "Home", path: "/" },
-    //   { title: "About Us", path: "/Aboutus" },
-      { title: "Services", path: "/Services" },
-      { title: "Past Work", path: "/pastwork" },
-      { title: "Book", path: "/Book" },
-      { title: "Reviews", path: "https://www.google.com/search?q=midas+touch+event+services&rlz=1C5CHFA_enUS985US985&oq=midas+touch+event+services&aqs=chrome..69i57j69i60l2j69i61.6337j0j4&sourceid=chrome&ie=UTF-8#lrd=0x6dbb6dc48d527f9b:0xa8d384671b565cea,1,,," },
-      { title: "Contact Us", path: "/Contactus" }
+     
 
   ]
   return (
@@ -27,227 +25,44 @@ export default function Home() {
 
       </Head>
     <header className="bg-black">
-        <nav className=" bg-black items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6 ">
-            <div className=" bg-black flex justify-between">
-            
-                <button className="text-[#DAA545] outline-none md:hidden"
-                    onClick={() => setState(!state)}
-                >
-                    {
-                        state ? (
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                            </svg>
-                        ) : (
 
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        )
-                    }
-                </button>
-            </div>
-            <ul className={` flex-1 justify-between mt-12 md:flex md:mt-0 ${state ? '' : 'hidden'}`}>
-                {/* <li className=" order-2 pb-5 md:pb-0">
-                    <a href="javascript:void(0)" className="py-3 px-6 rounded-md shadow-md text-white text-center bg-indigo-500 focus:shadow-none block md:inline">
-                        Sign In
-                    </a>
-                </li> */}
-                <div className=" bg-black order-1 flex-1 justify-center items-center space-y-5 md:flex md:space-x-6 md:space-y-0">
-                    {
-                        navigation.map((item, idx) => (
-                            <li className="text-white hover:text-[#DAA545]" key={idx}>
-                                <a href={item.path}>{item.title}</a>
-                            </li>
-                            
-                        ))
-                    }
-           
-                </div>
-            </ul>
-        </nav>
+        <Navbar />
     </header>
-    <section className=" bg-black mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
-        <div className="flex flex-col justify-center items-center">
-           
-            <Image
-                        src="/logo.png" 
-                        width={750} 
-                        height={800}
-                        alt="Float UI logo"
-                    />
-                    {/* <h1 className="text-white">Hello</h1> */}
+ <div>
+ <div class="relative flex flex-col items-center justify-center min-h-screen bg-[#121212] bg-cover min-w-screen">
+    <div class="flex flex-col items-center justify-center p-10 mx-auto lg:flex-row lg:max-w-6xl lg:p-0">
+        <div
+            class="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:px-0 md:px-10 sm:items-center lg:items-start lg:mb-0">
+            <h1
+                class="relative z-20 text-5xl font-extrabold leading-none text-[#DAA545] xl:text-6xl sm:text-center lg:text-left">
+                Midas Touch Event Services</h1>
+            <p class="relative z-20 block mt-6 text-base text-white xl:text-xl sm:text-center lg:text-left">We've
+            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+</p>
+            <div class="relative flex mt-4">
+                <a href="#_"
+                    class="flex items-center self-start justify-center px-5 py-3 mt-5 text-base font-medium leading-tight text-[#DAA545] transition duration-150 ease-in-out bg-white border border-transparent rounded-full shadow hover:bg-[#DAA545] hover:text-white focus:outline-none md:py-4 md:text-lg xl:text-xl md:px-10">
+                    Book Today</a>
+            
+            </div>
         </div>
-        {/* <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-            <a href="javascript:void(0)" className="px-10 py-3.5 w-full bg-indigo-600 text-white text-center rounded-md shadow-md block sm:w-auto">
-                Get started
-            </a>
-            <a href="javascript:void(0)" className="px-10 py-3.5 w-full text-gray-500 text-center border rounded-md duration-300 hover:text-indigo-600 hover:shadow block sm:w-auto">
-                Try it out
-            </a>
-        </div> */}
-    </section>
-
-    <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
-        <div className="block  md:flex">
-        <div className="md:w-1/2 text-center">
-            <h1 className="text-white text-4xl   ">Wedding DJ</h1>
-            <h2 className="text-white text-left text-center pt-5">We know how stressful it can be to sift through multiple DJs, photographers, etc. when planning for your special day. Let us take the stress of your hand by offering all in one wedding entertainment packages</h2>
-            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
-            <Link href = "/Book">
-            <a href="" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book
-            </a>
-            </Link>
-            </button>
+        <div class="relative w-full px-5  cursor-pointer md:w-2/3 lg:w-1/2 group xl:px-0">
+            <div class="absolute top-0 left-0 w-11/12 -mt-20 opacity-50">
+             
+            </div>
+            <div class="relative overflow-hidden  shadow-2xl  group">
+              
+                <img src="/wedding1.png"
+                    class=" w-full h-full"/>
+            </div>
         </div>
-        <div className="w-4/5 text-center pl-[115px] ">
-            <div className="block md:columns-3 ">
-        <Image
-                        src="/wedding1.png" 
-                        width={350} 
-                        height={300}
-                        alt="wedding"
-                        className="w-full aspect-video mb-6 hover:shadow-md hover:shadow-[#DAA545]"
-                    />  
-                      <Image
-                        src="/wedding2.png" 
-                        width={300} 
-                        height={200}
-                        alt="wedding"
-                        className="w-full aspect-square mb-6"
-
-                    /> 
-                                <div className= " hidden md: display bg-[#DAA545] w-full aspect-video mb-6 bl"> </div>
-    
-                      <Image
-                        src="/wedding3.png" 
-                        width={400} 
-                        height={300}
-                        alt="wedding"
-                        className="w-full aspect-video mb-6"
-
-                    />         
-
-                <Image
-                        src="/wedding4.jpg" 
-                        width={400} 
-                        height={300}
-                        alt="wedding"
-                        className="w-full aspect-square mb-6 "
-
-                    />   
-        </div>
-        </div>
-        </div>
-    </section>
-    <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4  py-16 sm:px-8">
-        <div className="block  md:flex">
-        <div className="md:w-1/2 text-center">
-            <h1 className="text-white text-4xl   ">Party DJ</h1>
-            <h2 className="text-white text-left text-center pt-5">Looking to throw a VIP event? Midas Touch Event Services is the best marquee DJs on the market, and when you throw a VIP event, you need us to make it a success. is here to help. Our experienced DJs have entertained audiences at marquee events around the Nashville area, and we’re confident we can do the same for you. Contact us today to learn more about our services!</h2>
-            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
-            <Link href = "/Book">
-            <a href="" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book
-            </a>
-            </Link>
-            </button>
-        </div>
-        <div className="w-4/5 text-center pl-[115px] ">
-            <div className="block md:columns-3 ">
-        <Image
-                        src="/party1.png" 
-                        width={350} 
-                        height={300}
-                        alt="party"
-                        className="w-full aspect-video mb-6 hover:shadow-md hover:shadow-[#DAA545]"
-                    />  
-                      <Image
-                        src="/party2.png" 
-                        width={300} 
-                        height={200}
-                        alt="party"
-                        className="w-full aspect-square mb-6"
-
-                    /> 
-                                <div className= " hidden md: display bg-[#DAA545] w-full aspect-video mb-6 bl"> </div>
-    
-                      <Image
-                        src="/party3.png" 
-                        width={400} 
-                        height={300}
-                        alt="party"
-                        className="w-full aspect-video mb-6"
-
-                    />         
-
-                <Image
-                        src="/party4.png" 
-                        width={400} 
-                        height={300}
-                        alt="v"
-                        className="w-full aspect-square mb-6 "
-
-                    />   
-        </div>
-        </div>
-        </div>
-    </section>
-    <section className=" bg-black  mx-auto max-w-screen-xl pb-4 px-4  py-16 sm:px-8">
-        <div className="block  md:flex">
-        <div className="md:w-1/2 text-center">
-            <h1 className="text-white text-4xl   ">Event DJ</h1>
-            <h2 className="text-white text-left text-center pt-5">Looking for a DJ for your next event? Our experienced professionals will make your party a success. We offer a wide range of services for bars and corporate events. Let us take care of everything so you can relax and enjoy the night.</h2>
-            <button className = " border-2 border-[#DAA545] bg-transparent  text-[#DAA545] rounded-md mt-10 mb-10 hover:text-white hover:bg-[#DAA545]">
-            <Link href = "/Book">
-            <a href="" className="px-10 py-3.5 w-1/2    stroke-[#DAA545]  text-center rounded-md  block sm:w-auto">
-                Book
-            </a>
-            </Link>
-            </button>
-        </div>
-        <div className="w-4/5 text-center pl-[115px] ">
-            <div className="block md:columns-3 ">
-        <Image
-                        src="/event1.png" 
-                        width={350} 
-                        height={300}
-                        alt="event"
-                        className="w-full aspect-video mb-6 hover:shadow-md hover:shadow-[#DAA545]"
-                    />  
-                      <Image
-                        src="/event2.png" 
-                        width={300} 
-                        height={200}
-                        alt="event"
-                        className="w-full aspect-square mb-6"
-
-                    /> 
-                                <div className= " hidden md: display bg-[#DAA545] w-full aspect-video mb-6 bl"> </div>
-    
-                      <Image
-                        src="/event3.png" 
-                        width={400} 
-                        height={300}
-                        alt="event"
-                        className="w-full aspect-video mb-6"
-
-                    />         
-
-                <Image
-                        src="/event4.png" 
-                        width={400} 
-                        height={300}
-                        alt="event"
-                        className="w-full aspect-square mb-6 "
-
-                    />   
-        </div>
-        </div>
-        </div>
-    </section>
-    <footer aria-label="Site Footer" class=" text-center">
+    </div>
+</div>
+<ImageGrid />
+<Services />
+<Hero />
+<footer aria-label="Site Footer" class=" text-center">
   <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-3xl space-y-6">
     <div class="flex justify-center space-x-2 text-gray-700">
@@ -279,13 +94,18 @@ export default function Home() {
  
 
       <p class="mx-auto max-w-lg text-xs text-gray-500">
-        This website was created by kayacancode.com .
+        This website was created by <a className = "hover:text-violet-600" href = "https://www.kayacancode.com/">KAYACANCODE</a> .
 
         <span class="mt-4 block"> &copy; 2022 Midas Touch Event Services</span>
       </p>
     </div>
   </div>
 </footer>
+</div>
+  
+   
+   
+ 
 
 </div>
   )
