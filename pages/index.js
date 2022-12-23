@@ -9,7 +9,7 @@ export default function Home() {
   // Replace javascript:void(0) path with your path
   const navigation = [
       { title: "Home", path: "/" },
-      { title: "About Us", path: "/Aboutus" },
+    //   { title: "About Us", path: "/Aboutus" },
       { title: "Services", path: "/Services" },
       { title: "Past Work", path: "/pastwork" },
       { title: "Book", path: "/Book" },
@@ -19,7 +19,7 @@ export default function Home() {
   ]
   return (
     
-    <div className=" h-screen bg-black">
+    <div className="  bg-black">
           <Head>
         <title>Midas Touch Event Services: DJs, Photographers, and Event Rental Services in Nashville</title>
           <meta name="description" content="Looking for a DJ for your next event in Nashville? Midas Touch Event Services has you covered! We also offer photography and event rental services." />
